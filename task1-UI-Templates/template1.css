@@ -1,0 +1,124 @@
+*{
+margin:0;
+padding:0;
+}
+.sidebar{
+position: relative;
+width:40%;
+}
+.imgside{
+    width:40%;
+    height:75vh;
+    margin:6% 0 6% 6%;
+}
+.contactus{
+position: absolute;
+width:60%;
+text-align: center;
+}
+.back_img{
+width:3%;
+height:2%;
+margin-top:6%;
+display:inline-block;
+vertical-align: middle;
+cursor: pointer;
+}
+.back_to_homepage{
+display:inline-block; 
+white-space:nowrap;
+vertical-align: middle;
+padding: 2%;
+margin-top:6%;
+color: #1E223B;;
+}
+.con_us_title{
+margin-top:5%;
+color: #1E223B;
+}
+.letstalk_title{
+margin-top:3%;
+color: #1E223B;
+}
+input[type='text']{
+border:0px;
+border-bottom: 2px solid black;
+width:65%;
+}
+input[type="text"]::placeholder,textarea::placeholder { 
+text-align: center;
+    
+}
+textarea{
+border:0px;
+color:#27272F;
+background-color:#E3E4E9;
+width:65%;
+}
+.send_btn{
+color:#323B4A;
+background-color:#E3E4E9;
+border-radius:25px;
+padding:10px;
+cursor: pointer;
+font-style: bold;
+}
+
+@media only screen and (max-width:700px){
+    .imgside{
+        width:40%;
+        height:75vh;
+    }
+    .contactus{
+        width:60%;
+    }
+    
+    .con_us_title{
+        margin-top:5%;
+    }
+    .letstalk_title{
+        margin-top:3%;
+    }
+}
+@media only screen and (min-width:700px) and (max-width:950px){
+    .imgside{
+        width:35%;
+        height:80vh;
+    }
+    .contactus{
+        width:55%;
+    }
+    .con_us_title{
+        margin-top:5%;
+        font-size: 2.3rem;
+    }
+    .letstalk_title{
+        margin-top:3%;
+        font-size: 1.2rem;
+    }
+}
+@media only screen and (min-width:950px){
+    .imgside{
+        width:35%;
+        height:80vh;
+    }
+    .contactus{
+        width:50%;
+        height:100%;
+        position:absolute;
+        text-align: center;
+    }
+    .back_img{
+        width:4%;
+        height:4%;
+        margin-top:6%;
+    }
+    .con_us_title{
+        margin-top:3.5%;
+        font-size: 3.5rem;
+    }
+    .letstalk_title{
+        margin-top:3%;
+        font-size: 1.5rem;
+    }
+}

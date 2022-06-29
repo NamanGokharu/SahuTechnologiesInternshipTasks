@@ -1,0 +1,129 @@
+.navbar{
+    display:block;
+    margin-right: 0;
+    float: right;
+    text-decoration: none;
+    width:61%;
+    height:15%;
+}
+.logo{
+    position:absolute;
+    margin-left:5%;
+}
+.navbar ul li{
+    display:inline-block;
+    list-style-type: none;
+    margin-right: 35px;
+    padding:5px;
+    
+}
+.navbar ul li a{
+    width: 200px;
+    height: 20px;
+}
+.navbar ul li img{
+    width:24px;
+    height:24px;
+}
+.navbar ul li a:hover{
+    background-color: #FF3B5F;
+    color: white;
+    cursor: pointer;
+}
+.navbar ul li img:hover{
+    cursor: pointer;
+}
+.message_frm{
+    display:flex;
+    flex-direction: column;
+    left:0;
+    background-color: #FF3B5F;
+    color: #ffffff;
+    width: 100%;
+    height: auto;
+    text-align: center;
+    align-items: center;
+    margin-top: 4em;
+    
+}
+.message_frm form input,.message_frm form textarea,.message_frm form select{
+    display: block;
+    margin:auto;
+    margin-top:2em;
+    background-color: #FF3B5F;
+    color: white;
+    width:100%;
+    border:0;
+    border-bottom: 1px solid white;
+}
+.message_frm form input::placeholder,.message_frm form textarea::placeholder{
+    color: white;
+}
+.message_frm form select option{
+    background-color: white;
+    color:#FF3B5F;
+}
+.message_frm form .submit_btn{
+    background-color: #ffffff;
+    color:black;
+    border:0;
+    width:55%;
+    height:3rem;
+    text-align: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.footer_intro{
+    display:flex;
+    text-align: center;
+    color: white;
+    width:80%;
+    margin:auto;
+    margin-top: 5%;
+    padding-bottom: 5%;
+}
+.d1{
+    background-image: url("bar.jpg");
+    background-size: cover;
+    padding-bottom: 15px;
+}
+.d2{
+
+    background-image: url("black.jpg");
+    background-size: cover;
+}
+.d3{
+    background-image: url("light.jpg");
+    background-size: cover;
+}
+.d4{
+    background-image: url("black.jpg");
+    background-size: cover;
+}
+.d1 a,.d2 a,.d3 a,.d4 a{
+    padding: 10px;
+    color: white;
+    border:1px solid grey;
+    text-decoration: none;
+}
+.footer_desc{
+    text-align: center;
+    color: black;
+    width:30%;
+    margin:auto;
+    display:block;
+    text-decoration: none;
+}
+.footer_desc input[type="email"]{
+    border:0;
+    box-shadow: 0 2px grey;
+}
+.footer_desc ul li{
+    display:inline-block;
+    list-style-type: none;
+    margin:auto;
+    margin-right:7%;
+}
+        
+        
